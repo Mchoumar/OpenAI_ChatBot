@@ -5,7 +5,7 @@ from os import getenv
 class Chatbot:
     def __init__(self):
         # Calls the api key and stores it
-        openai.api_key = 'apo'
+        openai.api_key = 'test'
 
     def get_response(self, user_input):
         # Set up for the chatbot
